@@ -1,0 +1,58 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.hero__container, .technology__container, .clients__container, .nav__container, .about-us__container, .main, .goods{
+    outline: 2px solid red;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.nav__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.hero__container{
+    width: 400px;
+}
+
+/* .about-us-center__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.clients__button{
+    display: block;
+    margin: auto;
+}
+
+.goods__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
