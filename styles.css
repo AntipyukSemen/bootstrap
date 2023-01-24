@@ -54,5 +54,31 @@ img{
 .goods__list{
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.goods{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.button__list{
+    display: flex;
     gap: 15px;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.button__link{
+    display: block;
+}
+
+.goods__button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
 }
